@@ -15,12 +15,18 @@ namespace CalculatorGrpc.Calculator
     {
         private Stack<string> operatorElementStack = new Stack<string>();
         private Stack<double> valueStack = new Stack<double>();
-
+        private readonly Calculator.CalculatorClient grpcClient;
+        
+        public EvaluateVisitor()
+        {
+            grpcClient = GetGrpcClient();
+        }
+        
         /// <summary>
         /// Подключение к gRPC, создание клиента
         /// </summary>
         /// <returns></returns>
-        public static CalculatorGrpcService.Calculator.CalculatorClient ConnectToGrpc()
+        public static CalculatorGrpcService.Calculator.CalculatorClient GetGrpcClient()
         {
             using var channel = GrpcChannel.ForAddress("https://localhost:5001");
             return new CalculatorGrpcService.Calculator.CalculatorClient(channel);
@@ -32,8 +38,6 @@ namespace CalculatorGrpc.Calculator
         /// <param name="operatorElement"></param>
         public void Visit(OperatorElement operatorElement)
         {
-            var grpcClient = ConnectToGrpc();
-
             string operatorElem = operatorElement.Operator;
 
             if (operatorElem.Equals("("))
@@ -150,8 +154,6 @@ namespace CalculatorGrpc.Calculator
         /// <param name="calculator"></param>
         public void Visit(Calculator calculator)
         {
-            var grpcClient = ConnectToGrpc();
-
             while (operatorElementStack.Count != 0)
             {
                 double secondNum = valueStack.Pop();
