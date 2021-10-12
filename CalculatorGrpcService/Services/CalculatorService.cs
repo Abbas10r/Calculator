@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 namespace CalculatorGrpcService
 {
     /// <summary>
-    /// Сервис калькулятора
+    /// РЎРµСЂРІРёСЃ РєР°Р»СЊРєСѓР»СЏС‚РѕСЂР°
     /// </summary>
     public class CalculatorService : Calculator.CalculatorBase
     {
@@ -16,7 +16,7 @@ namespace CalculatorGrpcService
         }
 
         /// <summary>
-        /// Сложение
+        /// РЎР»РѕР¶РµРЅРёРµ
         /// </summary>
         /// <param name="nums"></param>
         /// <param name="context"></param>
@@ -30,7 +30,7 @@ namespace CalculatorGrpcService
         }
 
         /// <summary>
-        /// Вычитание
+        /// Р’С‹С‡РёС‚Р°РЅРёРµ
         /// </summary>
         /// <param name="nums"></param>
         /// <param name="context"></param>
@@ -44,7 +44,7 @@ namespace CalculatorGrpcService
         }
 
         /// <summary>
-        /// Умножение
+        /// РЈРјРЅРѕР¶РµРЅРёРµ
         /// </summary>
         /// <param name="nums"></param>
         /// <param name="context"></param>
@@ -58,7 +58,7 @@ namespace CalculatorGrpcService
         }
 
         /// <summary>
-        /// Деление
+        /// Р”РµР»РµРЅРёРµ
         /// </summary>
         /// <param name="nums"></param>
         /// <param name="context"></param>

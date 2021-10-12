@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VisualStudioProjects\\calculator\\CalculatorGrpcService\\CalculatorGrpcService.csproj": {}
+    "E:\\VisualStudioProjects\\Calculator\\CalculatorGrpcService\\CalculatorGrpcService.csproj": {}
   },
   "projects": {
-    "E:\\VisualStudioProjects\\calculator\\CalculatorGrpcService\\CalculatorGrpcService.csproj": {
+    "E:\\VisualStudioProjects\\Calculator\\CalculatorGrpcService\\CalculatorGrpcService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VisualStudioProjects\\calculator\\CalculatorGrpcService\\CalculatorGrpcService.csproj",
+        "projectUniqueName": "E:\\VisualStudioProjects\\Calculator\\CalculatorGrpcService\\CalculatorGrpcService.csproj",
         "projectName": "CalculatorGrpcService",
-        "projectPath": "E:\\VisualStudioProjects\\calculator\\CalculatorGrpcService\\CalculatorGrpcService.csproj",
+        "projectPath": "E:\\VisualStudioProjects\\Calculator\\CalculatorGrpcService\\CalculatorGrpcService.csproj",
         "packagesPath": "C:\\Users\\Abbas\\.nuget\\packages\\",
-        "outputPath": "E:\\VisualStudioProjects\\calculator\\CalculatorGrpcService\\obj\\",
+        "outputPath": "E:\\VisualStudioProjects\\Calculator\\CalculatorGrpcService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

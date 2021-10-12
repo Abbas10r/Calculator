@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kcPaZX9WLv6z0gRwAhxmjmOqBiWNVfUK+mdU00YE+ao/QD+fNNbOv9qei2MfUx4peAT/SDmrwTAlokkEciDB2w==",
+  "dgSpecHash": "bWq79nciHjQm/B5DHOILrXcOPK2lTNn4QD/WdUI6ejnVVUqETyG3BJ0eN60QZ0MECz0d1kF+k0f55N2Zq9QAaQ==",
   "success": true,
-  "projectFilePath": "E:\\VisualStudioProjects\\calculator\\CalculatorGrpcService\\CalculatorGrpcService.csproj",
+  "projectFilePath": "E:\\VisualStudioProjects\\Calculator\\CalculatorGrpcService\\CalculatorGrpcService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abbas\\.nuget\\packages\\google.protobuf\\3.18.0\\google.protobuf.3.18.0.nupkg.sha512",
     "C:\\Users\\Abbas\\.nuget\\packages\\grpc.aspnetcore\\2.40.0\\grpc.aspnetcore.2.40.0.nupkg.sha512",
